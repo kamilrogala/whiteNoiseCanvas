@@ -1,0 +1,25 @@
+{
+  "name": "whiteNoiseCanvas",
+  "version": "1.0.0",
+  "description": "Generates some type of white noise on canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "cd dist && rmdir /S /Q js && mkdir js && cd .. && babel ./src/js -s -d ./dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilrogala/whiteNoiseCanvas.git"
+  },
+  "author": "Kamil Rogala <contact@kamilrogala.it> (https://kamilrogala.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilrogala/whiteNoiseCanvas/issues"
+  },
+  "homepage": "https://github.com/kamilrogala/whiteNoiseCanvas#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
